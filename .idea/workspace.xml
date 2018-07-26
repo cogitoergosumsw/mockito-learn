@@ -68,12 +68,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessMockAnnotationImplTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BusinessMockAnnotationImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/spring/mockito/mockitolearn/BusinessMockAnnotationImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/spring/mockito/mockitolearn/ListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/learn/spring/mockito/mockitolearn/BusinessImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/learn/spring/mockito/mockitolearn/MockitoLearnMockAnnotationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/learn/spring/mockito/mockitolearn/BusinessMockAnnotationImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/learn/spring/mockito/mockitolearn/ListTest.java" />
       </list>
     </option>
   </component>
@@ -205,36 +218,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockitolearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BusinessImplTest.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockito-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mockito-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -284,7 +267,7 @@
       <recent name="com.learn.spring.mockito.mockitolearn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BusinessMockAnnotationImplTest">
+  <component name="RunManager" selected="JUnit.ListTest">
     <configuration default="false" name="BusinessImplTest.testGreatestFromAllData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -349,6 +332,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.learn.spring.mockito.mockitolearn" />
       <option name="MAIN_CLASS_NAME" value="com.learn.spring.mockito.mockitolearn.BusinessMockAnnotationImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.learn.spring.mockito.mockitolearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mockito-learn" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.spring.mockito.mockitolearn" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.spring.mockito.mockitolearn.ListTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -777,17 +786,19 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.MockitoLearnApplication" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BusinessImplTest.testGreatestFromAllData" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BusinessImplTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.BusinessMockAnnotationImplTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ListTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BusinessMockAnnotationImplTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BusinessImplTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BusinessImplTest.testGreatestFromAllData" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ListTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BusinessMockAnnotationImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BusinessImplTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BusinessImplTest.testGreatestFromAllData" />
       </list>
     </recent_temporary>
   </component>
@@ -801,7 +812,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532591638746</updated>
-      <workItem from="1532591643042" duration="2527000" />
+      <workItem from="1532591643042" duration="3282000" />
     </task>
     <servers />
   </component>
@@ -811,9 +822,6 @@
     </history-entry>
     <history-entry file="BusinessImplTest - 2018.07.26 at 16h 51m 06s.xml">
       <configuration name="BusinessImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusinessImplTest_testGreatestFromAllData - 2018.07.26 at 16h 24m 28s.xml">
-      <configuration name="BusinessImplTest.testGreatestFromAllData" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BusinessImplTest_testGreatestFromAllData - 2018.07.26 at 16h 24m 39s.xml">
       <configuration name="BusinessImplTest.testGreatestFromAllData" configurationId="JUnit" />
@@ -830,9 +838,18 @@
     <history-entry file="BusinessMockAnnotationImplTest - 2018.07.26 at 17h 44m 43s.xml">
       <configuration name="BusinessMockAnnotationImplTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ListTest - 2018.07.26 at 18h 06m 24s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest - 2018.07.26 at 18h 07m 05s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest - 2018.07.26 at 18h 11m 26s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2527000" />
+    <option name="totallyTimeSpent" value="3282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -937,6 +954,16 @@
         <state relative-caret-position="555">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/spring/mockito/mockitolearn/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
